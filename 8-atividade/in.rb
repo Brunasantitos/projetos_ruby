@@ -1,6 +1,6 @@
 print "How old are you? "
 
-age = gets.chomp #pq usar chomp?
+age = gets.chomp #pq usar chomp? chomp, são strings
 print "How tall are you? "
 height = gets.chomp
 print "How much do you weight? "
