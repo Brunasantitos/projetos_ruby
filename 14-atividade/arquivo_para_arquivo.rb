@@ -7,7 +7,7 @@ indata = in_file.read
 
 puts "The input file is #{indata.length} bytes long"
 
-puts "does the output file exist? #{File.exist?(in_file)}"
+puts "does the output file exist? #{File.exist?(to_file)}"
 puts "Ready, hit RETURN to continue, CTRL-C to abort."
 
 $stdin.gets
