@@ -4,5 +4,5 @@ first, second, third = ARGV #argv variável de argumento
 #ruby argv.rb firstValor, secondValor, thirdValor
 
 puts "Your fisrt variable is: #{first}"
-puts "your second variable is #{second}"
+puts "your second variable is: #{second}"
 puts "Your third variable is: #{third}"
