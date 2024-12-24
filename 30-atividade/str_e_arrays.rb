@@ -7,7 +7,7 @@ ten_things = "apples oranges crows telephone light sugar"
 puts "wat there are not 10 things in that list. let's fix that."
 
 
-stuff = ten_things.split(' ')
+stuff = ten_things.split(' ') #quebra a str om base no delimitador e retorna em um array
 more_stuff = ["Day", "Night", "Song", "Frisbee", "Corn", "Banana", "Girl", "Boy"]
 
 
@@ -27,4 +27,4 @@ puts stuff[1]
 puts stuff[-1]
 puts stuff.pop
 puts stuff.join(' ')
-puts stuff[3...5].join('#')
+puts stuff[3...5].join('#')foi declarado uma
